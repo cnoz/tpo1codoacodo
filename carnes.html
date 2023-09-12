@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+
     <title>Carnes</title>
 </head>
 <body>
     <!-- Cabecera Principal -->
-    <head>
+    <header>
+        <h1>Totalmente Casero</h1>
+        <h1>Que vamos a cocinar hoy?</h1>
 
-    </head>
     <!-- Navegacion -->
     <nav>
-        <h1>Que vamos a cocinar hoy?</h1>
-            <h3>Elige tu receta</h3>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="carnes.html">Carnes</a></li>
-                <li><a href="pastas.html">Pastas</a></li>
-                <li><a href="vegetales.html">Vegetales</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+
+            <ul id="nav-bar">
+                <li id="nav-bar"><a href="index.html">Inicio</a></li>
+                <li id="nav-bar"><a class="active" href="carnes.html">Carnes</a></li>
+                <li id="nav-bar"><a href="pastas.html">Pastas</a></li>
+                <li id="nav-bar"><a href="vegetales.html">Vegetales</a></li>
+                <li id="nav-bar"><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
+     </header>    
     <!-- Contenido principal -->
     <main>
         <section>
@@ -35,7 +38,7 @@
 
                 <h5>Ingredientes</h5>
 
-                <ul>
+                <ol class="item">
                     <li>8 Unidades Chorizos Bombón</li>
                     <li>1 Unidad Cebolla Grande</li>
                     <li>1 Unidad Diente De Ajo</li>
@@ -49,7 +52,7 @@
                     <li>1/2 Taza Agua Caliente</li>
                     <li>1/2 Taza Caldo De Verduras Maggi</li>
                     <li>1 Hoja Laurel Fresco</li>
-                </ul>
+                </ol>
             
             <h5>¡A cocinar!</h5>
                 <ol>
@@ -70,7 +73,7 @@
                 <p>Rinde 6 porciones</p>
 
                 <h5>Ingredientes</h5>
-                <ul>
+                <ol class="item">
                     <li>1 Cucharadita Aceite</li>
                     <li>1 Kilogramo Carne De Cerdo Y Ternera</li>
                     <li>1 Unidad Cebolla Picada</li>
@@ -88,7 +91,7 @@
                     <li>800 Centimetros cúbicos Agua</li>
                     <li>40 Gramos Manteca</li>
                     <li>400 Centimetros cúbicos Leche</li>
-                </ul>
+                </ol>
 
                 <h5>¡A cocinar!</h5>
                 <ol>
@@ -104,8 +107,8 @@
         </section>
     </main>
     <!-- Pie de pagina -->
-    <footer>
-
+    <footer class="footer">
+        <p>Derechos reservados &copy 2023</p>
     </footer>
 </body>
 </html>

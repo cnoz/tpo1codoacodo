@@ -3,26 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+
     <title>Vegetales</title>
 </head>
 <body>
     <!-- Cabecera principal -->
     <header>
+        <h1>Totalmente Casero</h1>
+        <h1>Que vamos a cocinar hoy?</h1>
 
-    </header>
     <!-- Barra de navegacion -->
     <nav>
-        <h1>Muy buena elección.</h1>
-            <h3>Elige tu receta</h3>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="carnes.html">Carnes</a></li>
-                <li><a href="pastas.html">Pastas</a></li>
-                <li><a href="vegetales.html">Vegetales</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+            <ul id="nav-bar">
+                <li id="nav-bar"><a href="index.html">Inicio</a></li>
+                <li id="nav-bar"><a href="carnes.html">Carnes</a></li>
+                <li id="nav-bar"><a href="pastas.html">Pastas</a></li>
+                <li id="nav-bar"><a class="active" href="vegetales.html">Vegetales</a></li>
+                <li id="nav-bar"><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
-
+    </header>
 <!-- Contenido Principal -->
 <main>
 <section>
@@ -36,7 +37,7 @@
 
         <h5>Ingredientes</h5>
 
-        <ul>
+        <ol class="item">
             <li>1 Taza Cuscús</li>
             <li>1/4 Taza Caldo De Verduras Maggi</li>
             <li>2 Unidades Zanahorias Chicas</li>
@@ -44,12 +45,12 @@
             <li>2 Cucharadas Aceite De Oliva Extra Virgen</li>
             <li>1 Pizca Sal</li>
             <li>1 Pizca Pimienta</li>
-        </ul>
+        </ol>
 
         
         <h5>¡A cocinar!</h5>
 
-        <ol>
+        <ol class="item">
             <li>Hidratar el cuscús con el Caldo de Verduras MAGGI hirviendo. Dejar reposar hasta que absorba todo el líquido.</li>
             <li>Blanquear las zanahorias cortadas en medias rodajas y las flores de brócoli.</li>
             <li>Una vez hidratado el cuscús, incorporar los vegetales fríos y condimentar con el aceite de oliva, sal y pimienta.</li>
@@ -67,7 +68,7 @@
 
             <h5>Ingredientes</h5>
 
-            <ul>
+            <ol class="item">
                 <li>750 Gramos Calabaza (Pelada)</li>
                 <li>2 Cubos Caldo De Verduras Maggi</li>
                 <li>2 Litros Agua</li>
@@ -76,13 +77,12 @@
                 <li>1 Cucharada grande Crema 0% (Para acompañar)</li>
                 <li>1 Poco Croutones Tostados De Pan Integral (Para acompañar)</li>
                 <li>1 Poco Perejil Picado (Para acompañar)</li>
-            </ul>
+            </ol>
 
             <h5>¡A cocinar!</h5>
 
-            <OL>
-                <LI>Cortar la calabaza en cubos y dorar en una olla de fondo grueso con el aceite. Agravar el agua y los cubitos de Caldo Maggi.
-</LI>
+            <OL class="item">
+                <LI>Cortar la calabaza en cubos y dorar en una olla de fondo grueso con el aceite. Agravar el agua y los cubitos de Caldo Maggi.</LI>
                 <LI>Una vez que la calabaza este bien tierna licuar.</LI>
                 <LI>Servir la sopa acompañada de hilos de crema caliente, croutons y perejil picado.</LI>
             </OL>
@@ -91,7 +91,8 @@
 </section>
 </main>
 <!-- Pie de pagina -->
-<footer>
+<footer class="footer">
+    <p>Derechos reservados &copy 2023</p>
 
 </footer>
 
