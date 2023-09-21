@@ -1,4 +1,4 @@
-@import url('layout.css');
+/* @import url("layout.css"); */
 
 
 body {
@@ -12,6 +12,8 @@ body {
     margin: 10px;
     overflow:scroll ;
     scroll-behavior: smooth;
+    /* display: grid; */
+
     }
 /* tabla */ 
 table{
@@ -36,15 +38,17 @@ header {
     text-align: center;
     }
 
+
 ul{
-    list-style-type: none;
+    /* list-style-type: none; */
     padding: 15px;
+    display: block;
 }
 
 ul#nav-bar {
     list-style-type: none;
     margin: 0 0 10px;
-    padding: 0;
+    padding: 10;
     overflow: hidden;
     background-color: #333;
 }
@@ -59,11 +63,11 @@ ol.item{
 }
 
 li.nav-bar {
-    float: left;
+    float:left;
 }
 
 li a {
-    display: block;
+    /* display: block; */
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -106,20 +110,25 @@ p {
     line-height: 1.5;
     margin-bottom: 20px;
 }
+img{
+    width: 50%;
+}
 
-.image {
-    float: right;
-    margin: 0 0 20px 20px;
-    max-width: 25%;
+.imagen {
+    /* float:none; */
+
+    margin:0;
+    max-width: 50%;
     height: auto;
 }
 
-.image2 {
+/* .image2 {
     float: left;
     margin: 0 20px 20px 0;
     max-width: 25%;
     height: auto;
-}
+} */
+
 .article {
     float: left;
     width: 70%;
@@ -172,10 +181,7 @@ input[type="text"],
         background-color: #f2f2f2;
         padding: 20px;
       }
-      .footer {
-        background-color: #333;
-        color: #fff;
-        padding: 10px;
-        text-align: center;
-        clear: both;
-      }
+
+
+/* ++++-----------------------------------------+++ */
+
