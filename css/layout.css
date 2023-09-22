@@ -2,9 +2,10 @@ body{
     display: grid;
     grid-template-areas: 
         "header"
-        "nav"
         "main"
-        "footer";
+        "footer"
+        "nav"
+        ;
 }
 
 main{
@@ -23,13 +24,13 @@ footer{
     grid-area: footer;
 }
 
-@media (min-width:480){
+@media screen and (min-width:1440px){
     body{
         
         grid-template-areas: 
             "header"
-            "main"
             "nav"
+            "main"
             "footer";
     }
 }
