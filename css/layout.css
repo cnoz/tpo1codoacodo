@@ -11,11 +11,11 @@ main{
     grid-area: main;
 }
 
-header{
+#header{
     grid-area: header;
 }
 
-nav{
+#nav{
     grid-area: nav;
 }
 
