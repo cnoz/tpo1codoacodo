@@ -58,7 +58,7 @@ ul#nav-bar {
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-  
+
 }
 
 /* li{
@@ -109,12 +109,14 @@ h2 {
     margin: 15px 0 0;
     padding: 0;
     text-align: center;
+
 }
 
 .container {
     max-width: 100%;
     margin: 0 auto;
     padding: 20px;
+    
 }
 
 p {
@@ -134,14 +136,20 @@ img{
     margin: 0 auto ;
     padding: 0px;
 } */
-
-h3{
-    padding: 150px;
+.fondo{
+    
     background-image:url("../assets/img/piramide-nutricional.jpg") ;
     background-position: center ;
     background-size: cover;
-    text-shadow: 22px 22px 15px gray;
+    
+}
+
+h3{
+    padding: 150px;
+    text-shadow: 10px 10px 10px  rgb(46, 45, 45);
     text-align: center;
+    color: #111;
+    background-color: rgba(201, 215, 201, 0.558);
     
 }
 /* fin  */
