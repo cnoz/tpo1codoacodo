@@ -24,17 +24,20 @@ table{
     
 }
 th{
-    border: 2px solid;
+    border: 2px transparent;
     padding: 5px 10px;
     
 }
 tr td{
-    border:2px solid;
+    /* border:2px solid; */
     padding:  5px 10px ;
 }
 
 td.tabla{
     text-align: right;
+}
+td{
+    text-align:left ;
 }
 /*--------------------------*/ 
 
