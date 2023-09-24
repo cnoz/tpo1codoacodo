@@ -39,18 +39,18 @@ footer{
             ;
     }
     
-nav ul li{
-    width: 90%;
-    height: auto;
-    display: block;
-}
-li.nav-bar a{
-    
-    display: block;
-    width: 100%;
-    margin-bottom: 5px;
-    text-align: center;
-    box-sizing: border-box;
+    nav ul li{
+        width: 90%;
+        height: auto;
+        display: block;
+    }
+    li.nav-bar a{
+        
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+        text-align: center;
+        box-sizing: border-box;
 
-}
+    }
 }
