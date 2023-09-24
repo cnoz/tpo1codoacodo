@@ -11,7 +11,7 @@ body {
     padding: 0;
     margin: 10px;
 
-    overflow:scroll ;
+    /* overflow:scroll ; */
     scroll-behavior: smooth;
     /* display: grid; */
 }
