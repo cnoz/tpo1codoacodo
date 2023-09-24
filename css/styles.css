@@ -111,6 +111,10 @@ h2 {
     padding: 20px;
     
 }
+/* alineamos los p que siguen a un sectio */
+section p{
+    text-align: center;
+}
 
 p {
     font-size: 16px;
@@ -164,13 +168,14 @@ h3{
     height: auto;
 } */
 
-.article {
-    float: left;
+article {
+    /* float: left;
     width: 70%;
-    background-color: #fff;
+    background-color: #fff; */
     padding: 10px;
-    margin: 10px;
-    border: 1px solid #ccc;
+    margin: 10px 50px;
+    border: 2px solid #2f2b2b;
+    text-align: center;
 }
 
 .footer {
