@@ -37,14 +37,12 @@ td.tabla{
 
 header {
     text-align: center;
-
     }
 
 
 ul{
     padding: 15px;
     
-
 }
 
 ul#nav-bar {
@@ -60,12 +58,10 @@ ul#nav-bar {
 
 }
 
-
-
-li.nav-bar {
+/* li.nav-bar {
     float:left;
     
-}
+} */
 
 li a {
     color: white;
