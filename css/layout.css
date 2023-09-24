@@ -2,9 +2,9 @@ body{
     display: grid;
     grid-template-areas: 
         "header"
+        "nav"
         "main"
         "footer"
-        "nav"
         ;
 }
 
@@ -28,13 +28,29 @@ footer{
     grid-area: footer;
 }
 
-@media screen and (min-width:560px){
+@media screen and (max-width:560px){
     body{
         
         grid-template-areas: 
             "header"
-            "nav"
             "main"
-            "footer";
+            "footer"
+            "nav"
+            ;
     }
+    
+nav ul li{
+    width: 90%;
+    height: auto;
+    display: block;
+}
+li.nav-bar a{
+    
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
 }
