@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/icon/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <title>Contacto</title>
+  </head>
+  <body>
+    <!-- Cabecera Principal -->
+    <header>
+      <h1>Totalmente Casero</h1>
+      <h1>Que vamos a cocinar hoy?</h1>
+      <!-- Barra de navegacion -->
+      <nav>
+        <ul id="nav-bar">
+          <li class="nav-bar"><a href="index.html">Inicio</a></li>
+          <li class="nav-bar"><a href="carnes.html">Carnes</a></li>
+          <li class="nav-bar"><a href="pastas.html">Pastas</a></li>
+          <li class="nav-bar"><a href="vegetales.html">Vegetales</a></li>
+          <li class="nav-bar">
+            <a class="active" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Contenido principal -->
+    <main>
+      <h4>Hola esperamos con ancias tus sugerencias para seguir mejorando.</h4>
+      <div class="contenedor-formulario">
+        <form>
+          <label for="nombre">Nombre: </label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Escribi aca tu nombre"
+            required
+          />
+          <label for="apellido">Apellido: </label>
+          <input
+            type="text"
+            id="apellido"
+            name="apellido"
+            placeholder="Escribi aca tu apellido"
+          />
+          <label for="mail">Email: </label>
+          <input
+            type="email"
+            id="mail"
+            name="mail"
+            placeholder="Escribi aca tu email"
+            required
+          />
+          <label for="comentario">Comentario: </label>
+          <textarea
+            name="comentario"
+            id="comentario"
+            placeholder="Escribi aca tu comentario"
+          ></textarea>
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+    </main>
+    <!-- Pie de pagina -->
+    <footer class="footer">
+      <p>Derechos reservados &copy 2023</p>
+    </footer>
+  </body>
+</html>
