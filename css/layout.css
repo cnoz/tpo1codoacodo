@@ -43,6 +43,8 @@ footer{
         width: 90%;
         height: auto;
         display: block;
+        /* display: flex;
+        flex-direction: column; */
     }
     li.nav-bar a{
         
