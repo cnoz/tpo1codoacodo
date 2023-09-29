@@ -19,26 +19,25 @@ body {
 }
 /*+++++++++++++++++++++++++++++++++++++*/
 /* tabla */ 
-table{
-    margin: 0 auto;
-    
-}
-th{
-    border: 2px transparent;
-    padding: 5px 10px;
-    
-}
-tr td{
-    /* border:2px solid; */
-    padding:  5px 10px ;
-}
-
-td.tabla{
-    text-align: right;
-}
-td{
-    text-align:left ;
-}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #000;
+  }
+  
+  th,
+  td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    border: 2px solid #000;
+  }
+  
 /*--------------------------*/ 
 
 header {
@@ -82,7 +81,7 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #92a4ff;
-    
+ 
 }
 
 a.titulo{
@@ -93,13 +92,74 @@ ol.item{
     list-style-type: none;
     padding: 0 0 15px 0;
 }
-ol {
+/* ol {
     margin: 16px;
     padding: 0 0 0 40px;
 }
 li{
     padding: 0 0 8px 0;
-}
+} */
+
+/* */
+/* Estilos para la lista ordenada (ol) */
+ol {
+    list-style-type: decimal; /* Tipo de numeración */
+    font-size: 18px; /* Tamaño de fuente */
+    margin-left: 20px; /* Margen izquierdo para indentación */
+    padding-left: 20px; /* Relleno izquierdo para indentación */
+  }
+  
+  /* Estilos para los elementos de la lista (li) */
+  li {
+    margin-bottom: 10px; 
+    /* Espacio entre elementos de la lista */
+    line-height: 1.5; 
+    /* Altura de línea para un espaciado adecuado */
+  }
+  
+  li {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Agregar sombra */
+  }
+  
+  OL li {
+    /* OL LI para solo afectar a los li dentro de los ol y no a los ul*/
+    border-left: 4px solid #007bff; /* borde izquierdo */
+    padding-left: 10px; /* + espacio al lado izquierdo del texto */
+  }
+  
+  /* Estilo para el último elemento de la lista */
+  OL li:last-child {
+    font-style: italic; /* Hacer cursiva el último elemento */
+  }
+  
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Cambiar el color del texto a un gris oscuro */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    margin-bottom: 15px; /* Espacio inferior ligeramente mayor */
+    border-bottom: 2px solid #007bff; /* Línea inferior con color */
+    padding-bottom: 5px; /* Espacio entre el texto y la línea inferior */
+  }
+  
+  .sub {
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: normal; /* Estilo de fuente normal (no negrita) */
+    color: #f8f8f8; /* Color de texto gris oscuro */
+    margin: 10px 0; /* Espacio en los márgenes superior e inferior */
+    padding: 10px; /* Relleno interno para separar el contenido del borde */
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(121, 9, 9, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    ); /* Color de fondo gris claro */
+    border: 1px solid #ccc; /* Borde del párrafo */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+
 /* */
 h1 {
     background-color: black;
@@ -131,6 +191,7 @@ p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 25px;
+    text-align: center;
     
 }
 img{
