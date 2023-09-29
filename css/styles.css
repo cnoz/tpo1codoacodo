@@ -25,6 +25,20 @@ main{
   padding: 16px;
 }
 /* ****************************************** */
+/* Estilos en los section */
+section{
+  margin: 24px 0;
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: -2px 2px 8px #999;
+  overflow: hidden;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+} 
+/* *********************************** */
+
 
 /*+++++++++++++++++++++++++++++++++++++*/
 /* tabla */ 
@@ -192,20 +206,6 @@ h2 {
     
 }
 /* *********************************** */
-/* Estilos en los section */
-section{
-      margin: 24px 0;
-      border-radius: 8px;
-      padding: 16px;
-      box-shadow: -2px 2px 8px #999;
-      overflow: hidden;
-      -webkit-border-radius: 8px;
-      -moz-border-radius: 8px;
-      -ms-border-radius: 8px;
-      -o-border-radius: 8px;
-} 
-/* *********************************** */
-
 
 
 /* alineamos los p que siguen a un sectio */
