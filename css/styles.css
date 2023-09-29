@@ -293,6 +293,8 @@ article {
 /* +++++++++++++++++++++++++++++++++++++++++++++ */
 /* formulario */
 
+
+
 input[type="text"],
       input[type="email"],
       textarea,
@@ -339,6 +341,6 @@ input[type="text"],
         min-height: 80px;
         resize: vertical;
       }
-
+ 
 /* ++++-----------------------------------------+++ */
 
