@@ -28,23 +28,47 @@
     
     <!-- Contenido principal -->
         <main>
-            <SECTIon>
+            <section>
             <p class="sub">Hola esperamo con ancias tus sugerencias para seguir mejorando.</p>
             <div class="contenedor-formulario">
                 <form>
-                <label for="nombre">Nombre: </label>
-                <input type="text" id="nombre" name="nombre" placeholder="Escribi aca tu nombre" required>
-                <label for="apellido">Apellido: </label>
-                <input type="text" id="apellido" name="apellido" placeholder="Escribi aca tu apellido">
-                <label for="mail">Email: </label>
-                <input type="email" id="mail" name="mail" placeholder="Escribi aca tu email" required> 
-                <label for="comentario">Comentario: </label>
-            <textarea name="comentario" id="comentario" placeholder="Escribi aca tu comentario"></textarea>
-            <input type="submit" value="Enviar">
+                    <label for="nombre">Nombre: </label>
+                    <input 
+                        type="text" 
+                        id="nombre" 
+                        name="nombre" 
+                        placeholder="Escribi aca tu nombre" 
+                        maxlength="50" 
+                        required>
+                    <label for="apellido">Apellido: </label>
+                    <input 
+                        type="text" 
+                        id="apellido" 
+                        name="apellido" 
+                        placeholder="Escribi aca tu apellido" 
+                        maxlength="50" 
+                        required>
+                    <label for="contact_email">Email: </label>
+                    <input 
+                        type="email" 
+                        id="contact_email" 
+                        name="email" 
+                        placeholder="Escribi aca tu email" 
+                        minlength="6" 
+                        required> 
+                    <label for="comentario">Comentario: </label>
+                    <textarea 
+                        name="comentario" 
+                        id="comentario" 
+                        placeholder="Escribi aca tu comentario" 
+                        minlength="30" 
+                        maxlength="1000"
+                        required></textarea>
+                    <input class="btn" type="submit" value="Enviar">
                 </form>
 
             </div>
-        </SECTIon>
+        </section>
     </main>
     <!-- Pie de pagina -->
     <footer class="footer">

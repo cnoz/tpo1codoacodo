@@ -308,17 +308,25 @@ input[type="text"],
 
       input[type="submit"] {
         width: 100%;
-        background-color: #4caf50;
-        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        /*background-color: #4caf50;
+        */color: #4caf50;
         padding: 14px 20px;
         margin: 8px 0;
-        border: none;
-        border-radius: 4px;
+        border: 2px solid ;
+        border-radius: 4px 8px;
         cursor: pointer;
-      }
+        -webkit-border-radius: 4px 8px;
+        -moz-border-radius: 4px 8px;
+        -ms-border-radius: 4px 8px;
+        -o-border-radius: 4px 8px;
+}
 
       input[type="submit"]:hover {
+        color: #f2f2f2;
         background-color: #45a049;
+    
       }
 
       div.contenedor-formulario {
@@ -327,6 +335,10 @@ input[type="text"],
         padding: 20px;
       }
 
+      textarea{
+        min-height: 80px;
+        resize: vertical;
+      }
 
 /* ++++-----------------------------------------+++ */
 
