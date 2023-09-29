@@ -17,13 +17,14 @@ body {
     scroll-behavior: smooth;
     /* display: grid; */
 }
-
+/* ****************************************** */
 /* agrego forma al main */
 main{
   max-width: 960px;
   margin: 16px auto;
   padding: 16px;
 }
+/* ****************************************** */
 
 /*+++++++++++++++++++++++++++++++++++++*/
 /* tabla */ 
@@ -190,7 +191,25 @@ h2 {
     padding: 20px;
     
 }
+/* *********************************** */
+/* Estilos en los section */
+section{
+      margin: 24px 0;
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: -2px 2px 8px #999;
+      overflow: hidden;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+} 
+/* *********************************** */
+
+
+
 /* alineamos los p que siguen a un sectio */
+
 section p{
     text-align: center;
 }
