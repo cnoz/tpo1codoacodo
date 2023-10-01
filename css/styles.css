@@ -281,15 +281,7 @@ article {
 
 
 
-/* +++++++++ Footer +++++++++ */
 /* +++++++++++++++++++++++++++++++++++++++++++++ */
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    clear: both;
-}
 
 
 
@@ -361,12 +353,37 @@ input[type="text"],
 
 /* ++++-----------------------------------------+++ */
 
+/* +++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++ Footer +++++++++ */
+
+.footer {
+
+  background-color: #333;
+
+  color: #fff;
+
+  padding: 10px;
+
+  text-align: center;
+
+  clear: both;
+
+}
+
+.footer p{
+
+margin: 0;
+
+padding: 10px;
+
+}
+
 /* Redes sociales */
 .social{
   display: flex;
   justify-content: center;
   flex-wrap: wrap-reverse;
-  padding: 32px;
+  padding: 16px;
   gap: 8px;
 }
 .social a{
