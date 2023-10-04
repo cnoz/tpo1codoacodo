@@ -1,6 +1,8 @@
 @import url("layout.css");
 
-
+*{
+  box-sizing:border-box ;
+}
 body {
     font-family: "Lucida Console", "Courier New", monospace;
     background: linear-gradient(
@@ -71,6 +73,19 @@ header {
 ul{
     padding: 15px;
     
+}
+/*   barra de navegacion se pega arriba y abajo en pantallas chicas          */
+nav{
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap:wrap-reverse ;
+  /* width: 100vw; */
+  
 }
 
 ul#nav-bar {
