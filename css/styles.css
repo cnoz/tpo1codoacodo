@@ -84,9 +84,9 @@ nav{
   bottom: 0;
   z-index: 1;
   /* display: flex; */
-  justify-content: space-between;
+  /* justify-content: space-between;
   align-items: center;
-  flex-wrap:wrap-reverse ;
+  flex-wrap:wrap-reverse ; */
   /* width: 100vw; */
   
 }
