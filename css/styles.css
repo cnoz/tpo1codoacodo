@@ -35,7 +35,7 @@ section{
   padding: 16px;
   box-shadow: -2px 2px 8px #999;
   overflow: hidden;
-
+  
   border-radius: 18px;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
@@ -222,7 +222,7 @@ h2 {
 /* *********************************** */
 
 
-/* alineamos los p que siguen a un sectio */
+/* alineamos los p que siguen a un section */
 
 section p{
     text-align: center;
@@ -247,6 +247,8 @@ img{
     margin: 0 auto ;
     padding: 0px;
 } */
+
+/* class=fondo imagen h3 de index */
 .fondo{
     
     background-image:url("../assets/img/piramide-nutricional.jpg") ;
@@ -295,6 +297,7 @@ article {
     margin: 10px auto;
     border: 2px solid #2f2b2b;
     text-align: center;
+    box-sizing: border-box;
 }
 
 
